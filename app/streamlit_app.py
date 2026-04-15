@@ -6,6 +6,9 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from rake_nltk import Rake
 from nltk.sentiment import SentimentIntensityAnalyzer
+import nltk
+
+nltk.download('vader_lexicon')
 
 # Add project root to path
 current_dir = os.path.dirname(__file__)
